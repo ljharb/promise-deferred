@@ -1,6 +1,6 @@
 {
 	"name": "promise-deferred",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"description": "A lightweight Deferred implementation, on top of Promises/A+",
 	"main": "index.js",
 	"scripts": {
