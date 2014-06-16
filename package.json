@@ -49,7 +49,7 @@
 		"promise": "~5.0.0"
 	},
 	"devDependencies": {
-		"tape": "~2.12.3",
+		"tape": "~2.13.3",
 		"covert": "~0.4.0"
 	},
 	"engines": {
