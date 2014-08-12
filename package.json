@@ -4,7 +4,7 @@
 	"description": "A lightweight Deferred implementation, on top of Promises/A+",
 	"main": "index.js",
 	"scripts": {
-		"test": "node test.js",
+		"test": "npm run coverage-quiet && node test.js",
 		"coverage": "covert test.js",
 		"coverage-quiet": "covert test.js --quiet"
 	},
