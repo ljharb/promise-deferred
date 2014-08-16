@@ -6,7 +6,8 @@
 	"scripts": {
 		"test": "npm run coverage-quiet && node test.js",
 		"coverage": "covert test.js",
-		"coverage-quiet": "covert test.js --quiet"
+		"coverage-quiet": "covert test.js --quiet",
+		"lint": "jscs *.js"
 	},
 	"repository": {
 		"type": "git",
@@ -50,7 +51,8 @@
 	},
 	"devDependencies": {
 		"tape": "~2.14.0",
-		"covert": "~1.0.0"
+		"covert": "~1.0.0",
+		"jscs": "~1.5.9"
 	},
 	"engines": {
 		"node": ">= 0.4"
