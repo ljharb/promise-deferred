@@ -29,11 +29,11 @@ Simply clone the repo, `npm install`, and run `npm test`
 
 [1]: https://npmjs.org/package/promise-deferred
 [2]: http://vb.teelaun.ch/ljharb/promise-deferred.svg
-[3]: https://travis-ci.org/ljharb/promise-deferred.png
+[3]: https://travis-ci.org/ljharb/promise-deferred.svg
 [4]: https://travis-ci.org/ljharb/promise-deferred
-[5]: https://david-dm.org/ljharb/promise-deferred.png
+[5]: https://david-dm.org/ljharb/promise-deferred.svg
 [6]: https://david-dm.org/ljharb/promise-deferred
-[7]: https://david-dm.org/ljharb/promise-deferred/dev-status.png
+[7]: https://david-dm.org/ljharb/promise-deferred/dev-status.svg
 [8]: https://david-dm.org/ljharb/promise-deferred#info=devDependencies
 [9]: https://ci.testling.com/ljharb/promise-deferred.png
 [10]: https://ci.testling.com/ljharb/promise-deferred
