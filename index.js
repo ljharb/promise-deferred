@@ -1,8 +1,8 @@
+"use strict";
+
 var Promise = require('promise');
 
 var Deferred = function Deferred() {
-	"use strict";
-
 	if (!(this instanceof Deferred)) { return new Deferred(); }
 
 	var self = this;
