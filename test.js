@@ -9,6 +9,11 @@ test('constructs', function (t) {
 	t.end();
 });
 
+test('Deferred has a reference to Promise', function (t) {
+	t.ok(Deferred.Promise, Promise, 'Deferred.Promise === Promise');
+	t.end();
+});
+
 test('has a promise', function (t) {
 	var deferred = Deferred();
 	t.ok(deferred.promise instanceof Promise, 'promise property is a Promise');
