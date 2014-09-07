@@ -1,6 +1,10 @@
 #promise-deferred <sup>[![Version Badge][2]][1]</sup>
 
-[![Build Status][3]][4] [![dependency status][5]][6] [![dev dependency status][7]][8]
+[![Build Status][3]][4]
+[![dependency status][5]][6]
+[![dev dependency status][7]][8]
+[![License][license-image]][license-url]
+[![Downloads][downloads-image]][downloads-url]
 
 [![npm badge][11]][1]
 
@@ -38,4 +42,8 @@ Simply clone the repo, `npm install`, and run `npm test`
 [9]: https://ci.testling.com/ljharb/promise-deferred.png
 [10]: https://ci.testling.com/ljharb/promise-deferred
 [11]: https://nodei.co/npm/promise-deferred.png?downloads=true&stars=true
+[license-image]: http://img.shields.io/npm/l/promise-deferred.svg
+[license-url]: LICENSE
+[downloads-image]: http://img.shields.io/npm/dm/promise-deferred.svg
+[downloads-url]: http://npm-stat.com/charts.html?package=promise-deferred
 
