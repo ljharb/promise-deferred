@@ -47,7 +47,7 @@
 		]
 	},
 	"dependencies": {
-		"promise": "~5.0.0"
+		"promise": "~6.0.0"
 	},
 	"devDependencies": {
 		"tape": "~2.14.0",
