@@ -1,8 +1,8 @@
 #promise-deferred <sup>[![Version Badge][npm-version-svg]][npm-url]</sup>
 
 [![Build Status][travis-svg]][travis-url]
-[![dependency status][5]][6]
-[![dev dependency status][7]][8]
+[![dependency status][deps-svg]][deps-url]
+[![dev dependency status][dev-deps-svg]][dev-deps-url]
 [![License][license-image]][license-url]
 [![Downloads][downloads-image]][downloads-url]
 
@@ -35,10 +35,10 @@ Simply clone the repo, `npm install`, and run `npm test`
 [npm-version-svg]: http://vb.teelaun.ch/ljharb/promise-deferred.svg
 [travis-svg]: https://travis-ci.org/ljharb/promise-deferred.svg
 [travis-url]: https://travis-ci.org/ljharb/promise-deferred
-[5]: https://david-dm.org/ljharb/promise-deferred.svg
-[6]: https://david-dm.org/ljharb/promise-deferred
-[7]: https://david-dm.org/ljharb/promise-deferred/dev-status.svg
-[8]: https://david-dm.org/ljharb/promise-deferred#info=devDependencies
+[deps-svg]: https://david-dm.org/ljharb/promise-deferred.svg
+[deps-url]: https://david-dm.org/ljharb/promise-deferred
+[dev-deps-svg]: https://david-dm.org/ljharb/promise-deferred/dev-status.svg
+[dev-deps-url]: https://david-dm.org/ljharb/promise-deferred#info=devDependencies
 [9]: https://ci.testling.com/ljharb/promise-deferred.png
 [10]: https://ci.testling.com/ljharb/promise-deferred
 [11]: https://nodei.co/npm/promise-deferred.png?downloads=true&stars=true
