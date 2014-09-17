@@ -10,7 +10,7 @@ test('constructs', function (t) {
 });
 
 test('Deferred has a reference to Promise', function (t) {
-	t.ok(Deferred.Promise, Promise, 'Deferred.Promise === Promise');
+	t.equal(Deferred.Promise, Promise, 'Deferred.Promise === Promise');
 	t.end();
 });
 
