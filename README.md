@@ -1,4 +1,4 @@
-#promise-deferred <sup>[![Version Badge][2]][1]</sup>
+#promise-deferred <sup>[![Version Badge][2]][npm-url]</sup>
 
 [![Build Status][3]][4]
 [![dependency status][5]][6]
@@ -6,7 +6,7 @@
 [![License][license-image]][license-url]
 [![Downloads][downloads-image]][downloads-url]
 
-[![npm badge][11]][1]
+[![npm badge][11]][npm-url]
 
 [![browser support][9]][10]
 
@@ -31,7 +31,7 @@ deferred.reject(new Error('oh noes'));
 ## Tests
 Simply clone the repo, `npm install`, and run `npm test`
 
-[1]: https://npmjs.org/package/promise-deferred
+[npm-url]: https://npmjs.org/package/promise-deferred
 [2]: http://vb.teelaun.ch/ljharb/promise-deferred.svg
 [3]: https://travis-ci.org/ljharb/promise-deferred.svg
 [4]: https://travis-ci.org/ljharb/promise-deferred
