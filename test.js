@@ -1,3 +1,5 @@
+'use strict';
+
 var test = require('tape');
 var Deferred = require('./');
 var Promise = require('promise');
