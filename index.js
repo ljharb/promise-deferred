@@ -1,6 +1,6 @@
 'use strict';
 
-var Promise = require('promise');
+var Promise = require('promise/lib/es6-extensions');
 
 var Deferred = function Deferred() {
 	if (!(this instanceof Deferred)) { return new Deferred(); }
