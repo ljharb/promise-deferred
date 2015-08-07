@@ -49,10 +49,10 @@
 		]
 	},
 	"dependencies": {
-		"promise": "^7.0.3"
+		"promise": "^7.0.4"
 	},
 	"devDependencies": {
-		"tape": "^4.0.1",
+		"tape": "^4.0.2",
 		"covert": "^1.1.0",
 		"jscs": "^2.0.0",
 		"eslint": "^1.0.0",
