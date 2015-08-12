@@ -32,7 +32,7 @@ deferred.reject(new Error('oh noes'));
 Simply clone the repo, `npm install`, and run `npm test`
 
 [npm-url]: https://npmjs.org/package/promise-deferred
-[npm-version-svg]: http://vb.teelaun.ch/ljharb/promise-deferred.svg
+[npm-version-svg]: http://versionbadg.es/ljharb/promise-deferred.svg
 [travis-svg]: https://travis-ci.org/ljharb/promise-deferred.svg
 [travis-url]: https://travis-ci.org/ljharb/promise-deferred
 [deps-svg]: https://david-dm.org/ljharb/promise-deferred.svg
