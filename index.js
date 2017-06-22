@@ -15,4 +15,3 @@ var Deferred = function Deferred() {
 Deferred.Promise = Promise;
 
 module.exports = Deferred;
-

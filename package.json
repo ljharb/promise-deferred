@@ -4,7 +4,10 @@
 	"description": "A lightweight Deferred implementation, on top of Promises/A+",
 	"main": "index.js",
 	"scripts": {
-		"test": "npm run lint && node test.js && npm run coverage-quiet && npm run security",
+		"pretest": "npm run lint",
+		"tests-only": "node test",
+		"test": "npm run tests-only && npm run coverage-quiet",
+		"posttest": "npm run security",
 		"coverage": "covert test.js",
 		"coverage-quiet": "covert test.js --quiet",
 		"lint": "npm run jscs && npm run eslint",
@@ -64,4 +67,3 @@
 		"node": ">= 0.4"
 	}
 }
-

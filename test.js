@@ -39,4 +39,3 @@ test('reject', function (t) {
 	});
 	deferred.reject('error');
 });
-
