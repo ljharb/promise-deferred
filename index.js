@@ -3,7 +3,9 @@
 var Promise = require('promise/lib/es6-extensions');
 
 var Deferred = function Deferred() {
-	if (!(this instanceof Deferred)) { return new Deferred(); }
+	if (!(this instanceof Deferred)) {
+		return new Deferred();
+	}
 
 	var self = this;
 	self.promise = new Promise(function (resolve, reject) {
