@@ -7,12 +7,12 @@ var Deferred = function Deferred() {
 		return new Deferred();
 	}
 
-	var self = this;
-	self.promise = new Promise(function (resolve, reject) {
-		self.resolve = resolve;
-		self.reject = reject;
-	});
-	return self;
+	this.promise = new Promise(function (resolve, reject) {
+		this.resolve = resolve;
+		this.reject = reject;
+	}.bind(this));
+
+	return this;
 };
 Deferred.Promise = Promise;
 
