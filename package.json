@@ -6,10 +6,9 @@
 	"scripts": {
 		"pretest": "npm run lint",
 		"tests-only": "node test",
-		"test": "npm run tests-only && npm run coverage-quiet",
+		"test": "npm run tests-only && npm run coverage",
 		"posttest": "npx aud",
-		"coverage": "covert test.js",
-		"coverage-quiet": "covert test.js --quiet",
+		"coverage": "covert test/index.js",
 		"lint": "eslint .",
 		"version": "auto-changelog && git add CHANGELOG.md",
 		"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
@@ -37,7 +36,7 @@
 	},
 	"homepage": "https://github.com/ljharb/promise-deferred",
 	"testling": {
-		"files": "test.js",
+		"files": "test/index.js",
 		"browsers": [
 			"iexplore/6.0..latest",
 			"firefox/3.0..6.0",
