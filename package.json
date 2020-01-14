@@ -57,11 +57,11 @@
 		"promise": "^7.0.4"
 	},
 	"devDependencies": {
-		"@ljharb/eslint-config": "^12.2.1",
+		"@ljharb/eslint-config": "^15.1.0",
 		"auto-changelog": "^1.16.2",
-		"covert": "^1.1.0",
-		"eslint": "^4.19.1",
-		"tape": "^4.9.0"
+		"covert": "^1.1.1",
+		"eslint": "^6.8.0",
+		"tape": "^5.0.0-next.3"
 	},
 	"engines": {
 		"node": ">= 0.4"
