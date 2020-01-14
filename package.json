@@ -10,9 +10,7 @@
 		"posttest": "npm run security",
 		"coverage": "covert test.js",
 		"coverage-quiet": "covert test.js --quiet",
-		"lint": "npm run jscs && npm run eslint",
-		"eslint": "eslint *.js",
-		"jscs": "jscs *.js",
+		"lint": "eslint .",
 		"security": "nsp check",
 		"version": "auto-changelog && git add CHANGELOG.md",
 		"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
@@ -65,7 +63,6 @@
 		"auto-changelog": "^1.16.2",
 		"covert": "^1.1.0",
 		"eslint": "^4.19.1",
-		"jscs": "^3.0.7",
 		"nsp": "^3.2.1",
 		"tape": "^4.9.0"
 	},
