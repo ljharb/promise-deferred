@@ -54,7 +54,7 @@
 		]
 	},
 	"dependencies": {
-		"promise": "^8.0.3"
+		"promise": "^7.3.1"
 	},
 	"devDependencies": {
 		"@ljharb/eslint-config": "^15.1.0",
