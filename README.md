@@ -8,8 +8,6 @@
 
 [![npm badge][npm-badge-png]][npm-url]
 
-[![browser support][testling-png]][testling-url]
-
 A lightweight Deferred implementation, on top of Promises/A+
 
 ## Examples
@@ -39,8 +37,6 @@ Simply clone the repo, `npm install`, and run `npm test`
 [deps-url]: https://david-dm.org/ljharb/promise-deferred
 [dev-deps-svg]: https://david-dm.org/ljharb/promise-deferred/dev-status.svg
 [dev-deps-url]: https://david-dm.org/ljharb/promise-deferred#info=devDependencies
-[testling-png]: https://ci.testling.com/ljharb/promise-deferred.png
-[testling-url]: https://ci.testling.com/ljharb/promise-deferred
 [npm-badge-png]: https://nodei.co/npm/promise-deferred.png?downloads=true&stars=true
 [license-image]: http://img.shields.io/npm/l/promise-deferred.svg
 [license-url]: LICENSE
