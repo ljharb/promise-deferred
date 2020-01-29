@@ -5,6 +5,6 @@
 
 	"rules": {
 		"new-cap": [2, { "capIsNewExceptions": ["Deferred"] }],
-		"func-name-matching": 1
+		"func-name-matching": 1,
 	}
 }
