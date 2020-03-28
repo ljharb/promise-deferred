@@ -8,7 +8,7 @@
 		"pretest": "npm run lint",
 		"tests-only": "node test",
 		"test": "npm run tests-only && npm run coverage",
-		"posttest": "npx aud",
+		"posttest": "npx aud --production",
 		"coverage": "covert test/index.js",
 		"lint": "eslint .",
 		"version": "auto-changelog && git add CHANGELOG.md",
@@ -59,6 +59,7 @@
 	},
 	"devDependencies": {
 		"@ljharb/eslint-config": "^16.0.0",
+		"aud": "^1.1.0",
 		"auto-changelog": "^1.16.3",
 		"covert": "^1.1.1",
 		"eslint": "^6.8.0",
