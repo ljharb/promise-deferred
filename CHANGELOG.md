@@ -5,6 +5,26 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v2.0.4](https://github.com/ljharb/promise-deferred/compare/v2.0.3...v2.0.4) - 2023-09-06
+
+### Commits
+
+- [meta] update `.gitignore` [`5fe39be`](https://github.com/ljharb/promise-deferred/commit/5fe39be3bf5cc1ebf3817bb5728bfe9fad2b578c)
+- [actions] add reusable workflows [`b489c11`](https://github.com/ljharb/promise-deferred/commit/b489c110f1868aec6c7decce76f75d7c4a7475ef)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `auto-changelog`, `safe-publish-latest`, `tape` [`c9ad5ca`](https://github.com/ljharb/promise-deferred/commit/c9ad5cad7e418c0c77497aab672e6ecf624eabee)
+- [Dev Deps] switch from `covert` to `nyc` [`7a4d62c`](https://github.com/ljharb/promise-deferred/commit/7a4d62c54564d8d678d0743d0b68fdfe5bec3396)
+- [actions] update rebase action [`b5bb367`](https://github.com/ljharb/promise-deferred/commit/b5bb3678dd08d64d0ef1889c1ac7d16de94ad3ea)
+- [meta] create FUNDING.yml [`7e4873f`](https://github.com/ljharb/promise-deferred/commit/7e4873f90248f25935f1577c8accbb80a276f4eb)
+- [meta] use `npmignore` to autogenerate an npmignore file [`ac3a16d`](https://github.com/ljharb/promise-deferred/commit/ac3a16da2ef733f965036a4bf7a7f8302a4c7e6d)
+- [Dev Deps] update `@ljharb/eslint-config`, `tape`; add `safe-publish-latest` [`b7f7d23`](https://github.com/ljharb/promise-deferred/commit/b7f7d23730ac89779df606bf357a54a8ff357253)
+- [Dev Deps] update `@ljharb/eslint-config`, `aud`, `tape` [`a30fb1a`](https://github.com/ljharb/promise-deferred/commit/a30fb1aab274252b968f828817f3b832b1214f48)
+- [Dev Deps] update `auto-changelog`, `tape` [`026083b`](https://github.com/ljharb/promise-deferred/commit/026083b950b8c8640e52284d9249c5ccb6676f6c)
+- [Tests] only audit prod deps [`0b101b6`](https://github.com/ljharb/promise-deferred/commit/0b101b68e0bc75dc2f138456ee4e0b084234997d)
+- [Deps] update `promise` [`05422e6`](https://github.com/ljharb/promise-deferred/commit/05422e6269a2d628cdf63b667c62d199975c2b3c)
+- [Dev Deps] update `auto-changelog` [`4bc237c`](https://github.com/ljharb/promise-deferred/commit/4bc237c97846e44b3eda2b4e1113bac0ffe0ef68)
+- [Deps] update `promise` [`3ec9fd6`](https://github.com/ljharb/promise-deferred/commit/3ec9fd619958f4ecf5cd6304d48d9446f1d63e04)
+- [Deps] update `promise` - turns out it was 729483b causing the break [`c8226e5`](https://github.com/ljharb/promise-deferred/commit/c8226e5dcb67eef9bf925c6af312213844dc79e0)
+
 ## [v2.0.3](https://github.com/ljharb/promise-deferred/compare/v2.0.2...v2.0.3) - 2020-01-14
 
 ### Commits
